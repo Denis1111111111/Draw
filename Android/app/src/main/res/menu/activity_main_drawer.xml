@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:layout_height="match_parent">
+
+
+    <item android:title="Color">
+        <menu>
+            <item
+                android:id="@+id/black"
+                android:title="Black" />
+            <item
+                android:id="@+id/red"
+                android:title="Red" />
+            <item
+                android:id="@+id/green"
+                android:title="Green" />
+        </menu>
+    </item>
+
+    <item android:title="Width">
+        <menu>
+            <item
+                android:id="@+id/thin"
+                android:title="Thin" />
+            <item
+                android:id="@+id/mid"
+                android:title="Middle" />
+            <item
+                android:id="@+id/fat"
+                android:title="Fat" />
+        </menu>
+    </item>
+
+    <item android:title="Shape">
+        <menu>
+            <item
+                android:id="@+id/rectangle"
+                android:title="rectangle" />
+            <item
+                android:id="@+id/oval"
+                android:title="Circle" />
+            <item
+                android:id="@+id/line"
+                android:title="Line" />
+            <item
+                android:id="@+id/curve"
+                android:title="Curve" />
+        </menu>
+    </item>
+
+</menu>
